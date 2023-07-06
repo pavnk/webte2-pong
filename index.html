@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>WebSocket</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.6.0.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <div id="login-screen">
+        <label for="player-name-input">Please insert name:</label>
+        <input type="text" id="player-name-input" placeholder="Enter player name">
+        <button id="join-button">Join game</button>
+        <button id="spectate-button">Spectate</button>
+    </div>
+
+    <div id="game-screen" style="display: none">
+        <button id="start-game-button" disabled>Start Game</button>
+        <button id="leave-button">Leave game</button>
+    </div>
+</div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="clientScript.js"></script>
+</body>
+</html>
